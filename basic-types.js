@@ -1,0 +1,16 @@
+var isDone = false;
+var age = 10;
+var firstName = 'viking';
+var message = "Hello, " + firstName;
+var u = undefined;
+var n = null;
+var num = undefined;
+var notSure = 4;
+notSure = 'maybe a string';
+notSure = true;
+notSure.myName;
+notSure.getName();
+var a = false;
+var b = 123;
+var any = 24234;
+any = 'abc';
