@@ -6,7 +6,7 @@ let firstName: string = 'viking'
 let message: string = `Hello, ${firstName}`
 
 let u: undefined = undefined
-let n:null = null
+let n: null = null
 
 let num: number = undefined
 
@@ -16,3 +16,8 @@ notSure = true
 
 notSure.myName
 notSure.getName()
+
+let a: boolean = false;
+let b: number = 123;
+let any: any = 24234;
+any= 'abc';
