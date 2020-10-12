@@ -6,3 +6,6 @@ function test() {
 }
 
 let user: [string, number] = ['viking', 20]; // 元组起源于函数式编程 python中也有 就是不同类型的数据在数组里  如果用any就丧失了
+user.push('123');
+user.push(111);
+// user.push(true); // 报错
