@@ -14,7 +14,7 @@ function getLength(input: string | number): number {
   }
 }
 
-//type guard
+//type guard 使用条件类型守卫 typeof 或者 instanceof
 function getLength2(input: string | number): number {
   if (typeof input === 'string') { // 类型守卫
     return input.length
