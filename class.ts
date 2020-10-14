@@ -9,6 +9,7 @@ class Animal {
 }
 const snake = new Animal('lily')
 console.log(snake.run())
+// snake.name = '121';
 
 class Dog extends Animal {
   bark() {
