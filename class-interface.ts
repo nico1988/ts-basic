@@ -21,3 +21,15 @@ class Cellphone implements RadioWithBattery {
 
   }
 }
+interface People {
+  say(word: string): void;
+}
+
+class chinese implements People {
+  say(world: string) {
+    console.log('world:::', world);
+  }
+}
+
+
+
