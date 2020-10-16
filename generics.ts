@@ -19,7 +19,7 @@ interface IWithLength {
   length: number
 }
 
-function echoWithLength<T extends IWithLength>(arg: T): T {
+function echoWithLength<T extends IWithLength>(arg: T): T { // 约束泛型 只能有length属性
   console.log(arg.length)
   return arg
 }
